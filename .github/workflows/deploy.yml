@@ -34,7 +34,7 @@ jobs:
 
       - name: Install dependencies
         working-directory: ./erp-lead-management
-        run: npm ci
+        run: npm install
 
       - name: Build
         working-directory: ./erp-lead-management
