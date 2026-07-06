@@ -1,0 +1,74 @@
+{
+  "leads": [
+    {
+      "id": "1",
+      "name": "John Doe",
+      "mobile": "1234567890",
+      "email": "john.doe@example.com",
+      "address": "123 Main St, NY",
+      "courseInterested": "React Masterclass",
+      "leadSource": "Website",
+      "status": "New",
+      "assignedEmployeeId": "1",
+      "createdDate": "2023-10-01"
+    },
+    {
+      "id": "2",
+      "name": "Jane Smith",
+      "mobile": "9876543210",
+      "email": "jane.smith@example.com",
+      "address": "456 Oak St, CA",
+      "courseInterested": "Advanced Node.js",
+      "leadSource": "Referral",
+      "status": "Contacted",
+      "assignedEmployeeId": "2",
+      "createdDate": "2023-10-05"
+    },
+    {
+      "name": "Sridhar K",
+      "mobile": "8754674567",
+      "email": "gukanswaminathan@gmail.com",
+      "address": "Coimbatore",
+      "courseInterested": "MCA",
+      "leadSource": "Linked In",
+      "status": "Contacted",
+      "assignedEmployeeId": "1",
+      "createdDate": "2026-07-04",
+      "id": "zUw45cXT5c4"
+    }
+  ],
+  "notes": [
+    {
+      "id": "1",
+      "leadId": "1",
+      "note": "Called him today, he is interested.",
+      "createdDate": "2023-10-02T10:00:00Z",
+      "createdBy": "Alice Johnson"
+    },
+    {
+      "leadId": "1",
+      "note": "Follow Up",
+      "createdDate": "2026-07-06T04:29:26.860Z",
+      "createdBy": "Admin User",
+      "id": "cysGT-3DyjQ"
+    },
+    {
+      "leadId": "1",
+      "note": "sdvsv",
+      "createdDate": "2026-07-06T04:29:54.187Z",
+      "createdBy": "Admin User",
+      "id": "CE3m94pN5WU"
+    }
+  ],
+  "employees": [
+    {
+      "id": "1",
+      "name": "Alice Johnson"
+    },
+    {
+      "id": "2",
+      "name": "Bob Williams"
+    }
+  ],
+  "$schema": "./node_modules/json-server/schema.json"
+}
