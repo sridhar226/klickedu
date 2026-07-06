@@ -8,8 +8,6 @@
     "dev": "vite",
     "start": "concurrently \"vite\" \"json-server --watch db.json --port 5000\"",
     "build": "vite build",
-    "predeploy": "npm run build",
-    "deploy": "gh-pages -d dist",
     "lint": "oxlint",
     "preview": "vite preview"
   },
